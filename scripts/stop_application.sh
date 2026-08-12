@@ -1,3 +1,2 @@
-pkill -f uvicorn || true
-
 #!/bin/bash
+pkill -f "uvicorn main:app" || true
